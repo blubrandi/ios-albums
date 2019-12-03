@@ -14,6 +14,8 @@
 		858753C12396285900897F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858753C02396285900897F3B /* Assets.xcassets */; };
 		858753C42396285900897F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858753C22396285900897F3B /* LaunchScreen.storyboard */; };
 		858753CC23962AD600897F3B /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858753CB23962AD600897F3B /* AlbumsTableViewController.swift */; };
+		858753CE23962E5F00897F3B /* AlbumDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858753CD23962E5F00897F3B /* AlbumDetailTableViewController.swift */; };
+		858753D0239631D700897F3B /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858753CF239631D700897F3B /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		858753C32396285900897F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		858753C52396285900897F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		858753CB23962AD600897F3B /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		858753CD23962E5F00897F3B /* AlbumDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailTableViewController.swift; sourceTree = "<group>"; };
+		858753CF239631D700897F3B /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				858753C22396285900897F3B /* LaunchScreen.storyboard */,
 				858753C52396285900897F3B /* Info.plist */,
 				858753CB23962AD600897F3B /* AlbumsTableViewController.swift */,
+				858753CD23962E5F00897F3B /* AlbumDetailTableViewController.swift */,
+				858753CF239631D700897F3B /* SongTableViewCell.swift */,
 			);
 			path = Albums;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858753D0239631D700897F3B /* SongTableViewCell.swift in Sources */,
 				858753BC2396285700897F3B /* ViewController.swift in Sources */,
 				858753CC23962AD600897F3B /* AlbumsTableViewController.swift in Sources */,
+				858753CE23962E5F00897F3B /* AlbumDetailTableViewController.swift in Sources */,
 				858753B82396285700897F3B /* AppDelegate.swift in Sources */,
 				858753BA2396285700897F3B /* SceneDelegate.swift in Sources */,
 			);
